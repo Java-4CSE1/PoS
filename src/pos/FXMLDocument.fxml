@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="900" prefWidth="1600" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pos.FXMLDocumentController">
+    <children>
+        <Button layoutX="300" layoutY="400" text="Add Items to Bill" onAction="#handleButtonAction" fx:id="button" />
+        <Label layoutX="300" layoutY="370" minHeight="16" minWidth="69" fx:id="label" />
+        
+        <Button layoutX="500" layoutY="600" text="Goodbye" onAction="#exitProg" fx:id="button2" />
+    </children>
+</AnchorPane>
